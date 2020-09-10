@@ -1,0 +1,40 @@
+html{
+  border: 3px solid red;
+}
+
+body {
+  text-align: center;
+  border: 3px solid blue;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+header {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  background-color: #8C46D3;
+
+}
+
+main {
+  border: 1px solid black;
+  background-color: #61FAFF;
+
+  flex: 1;
+}
+
+section {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+footer {
+  border: 1px solid black;
+  margin-top: 10px;
+  background-color: #55D358;
+}
